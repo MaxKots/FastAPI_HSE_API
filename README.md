@@ -131,13 +131,13 @@ ___
 Авторизуемся в Docker Hub командой:  
  ```docker login```  
  
-Выполняем отправку образов в удаленный репозиторий Docker Hub:
+Выполняем отправку образов в удаленный репозиторий Docker Hub:  
  ```docker push <ваш_логин_hub>/todo-service:latest```  
  ```docker push <ваш_логин_hub>/shorturl-service:latest```  
 
 **Ошибка:**
 Если при попытке выполнить ```docker login``` видим:  
-   ```Error saving credentials: error storing credentials - err: exec: "docker-credential-desktop": executable file not found in $PATH, out: ''```  
+   ```Error saving credentials: error storing credentials - err: exec: "docker-credential-desktop": executable file not found in $PATH, out: ''```    
 Убеждаемся, что у нас есть учетная запись в Docker Hub и в Account Settings создан Personal access token
 
 Выполняем в терминале:   
