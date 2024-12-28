@@ -125,7 +125,7 @@ ___
 
 
 Сборка образов выполнялась следующими командами:  
-``` docker build -t <ваш_логин_hub>/todo-service:latest todo_app/```
+``` docker build -t <ваш_логин_hub>/todo-service:latest todo_app/```  
 ``` docker build -t <ваш_логин_hub>/shorturl-service:latest shorturl_app/```  
 
 Авторизуемся в Docker Hub командой:  
